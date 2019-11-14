@@ -1,5 +1,4 @@
-pipeline {
-    agent { docker { image 'node:6.3' } }
+node {
     stages {
         stage('build') {
             steps {
